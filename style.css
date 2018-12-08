@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1040px;
+    margin: auto;
+}
+
+section {
+    padding: 50px 0;
+
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(images/hero-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-slogan-container {
+    text-align: center;
+    width: 50%;
+}
+
+.hero h1, .hero h2 {
+    color: #fff;
+}
+
+h2.hero-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+h1.hero-main-message {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 1.5em;
+}
+
+a.hero-cta {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 0 15px 0px #cbcbcb;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h4.card-title {
+    text-align: center;
+    margin-top: 0.75em;
+}
+
+
+.card-image {
+    border-radius: 5px 5px 0 0;
+}
